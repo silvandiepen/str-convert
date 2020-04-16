@@ -24,6 +24,8 @@ yarn add str-convert
 import { pascalCase } from 'str-convert';
 
 const convertedString = pascalCase('This string to PascalCase');
+
+// result; ThisStringToPascalcase
 ```
 
 **all functions**
@@ -31,7 +33,9 @@ const convertedString = pascalCase('This string to PascalCase');
 ```js
 import * as convert from 'str-convert';
 
-const convertedString = conver.pascalCase('This string to PascalCase');
+const convertedString = convert.pascalCase('This string to PascalCase');
+
+// result; ThisStringToPascalcase
 ```
 
 ## Functions
